@@ -1,0 +1,120 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Nico Silva | Energieberatung Wohnungswirtschaft & Gewerbe"
+    },
+    {
+      "path": "/wohnungswirtschaft/",
+      "title": "Energieversorgung für die Wohnungswirtschaft"
+    },
+    {
+      "path": "/wohnungswirtschaft/energieversorgung/",
+      "title": "Energieversorgung im Wohnungsbestand ordnen"
+    },
+    {
+      "path": "/wohnungswirtschaft/strom-gas/",
+      "title": "Strom und Gas für die Wohnungswirtschaft prüfen"
+    },
+    {
+      "path": "/wohnungswirtschaft/energiemanagement/",
+      "title": "Energiemanagement für die Wohnungswirtschaft"
+    },
+    {
+      "path": "/gewerbe/",
+      "title": "Energieberatung für Gewerbe und Industrie"
+    },
+    {
+      "path": "/gewerbe/industrie/",
+      "title": "Energieverträge für Industrieunternehmen prüfen"
+    },
+    {
+      "path": "/gewerbe/stromtarif/",
+      "title": "Gewerbestromtarif für Unternehmen prüfen"
+    },
+    {
+      "path": "/gewerbe/gasversorgung/",
+      "title": "Gasversorgung für Unternehmen prüfen"
+    },
+    {
+      "path": "/gewerbe/energieberatung/",
+      "title": "Energieberatung für Gewerbe: Strom & Gas"
+    },
+    {
+      "path": "/privatkunden/",
+      "title": "Strom- und Gasberatung für Privatkunden"
+    },
+    {
+      "path": "/privatkunden/stromtarif/",
+      "title": "Stromtarif-Check für Privathaushalte"
+    },
+    {
+      "path": "/privatkunden/gastarif/",
+      "title": "Gastarif für Privatkunden: Abrechnung prüfen"
+    },
+    {
+      "path": "/leistungen/energieberatung/",
+      "title": "Energieberatung: Strom- und Gastarife prüfen"
+    },
+    {
+      "path": "/leistungen/strom/",
+      "title": "Stromtarife für Gewerbe & Wohnungswirtschaft prüfen"
+    },
+    {
+      "path": "/leistungen/gas/",
+      "title": "Gasverträge für Haushalt, Gewerbe & Wohnungswirtschaft"
+    },
+    {
+      "path": "/leistungen/photovoltaik/",
+      "title": "Photovoltaik planen: Immobilien & Gewerbe"
+    },
+    {
+      "path": "/leistungen/waermepumpe/",
+      "title": "Wärmepumpe: Stromversorgung und Energiefragen"
+    },
+    {
+      "path": "/kontakt/",
+      "title": "Kontakt und Energieberatung anfragen"
+    },
+    {
+      "path": "/wissen/tarifcheck-kosten/",
+      "title": "Energieberatung kostenlos? Kosten & Betreuung"
+    },
+    {
+      "path": "/wissen/wechselpflicht/",
+      "title": "Besteht eine Wechselpflicht? Tarifcheck ohne Zwang"
+    },
+    {
+      "path": "/wissen/unterlagen-tarifcheck/",
+      "title": "Welche Unterlagen braucht der Tarifcheck?"
+    },
+    {
+      "path": "/wissen/beratung-zielgruppen/",
+      "title": "Für wen ist der Tarifcheck gedacht? Energieberatung"
+    },
+    {
+      "path": "/wissen/preisgarantie/",
+      "title": "Preisgarantie für Strom & Gas: Warum wichtig?"
+    },
+    {
+      "path": "/wissen/energie-makler-silva/",
+      "title": "Warum Energie Makler Silva? Beratung & Betreuung"
+    },
+    {
+      "path": "/wissen/persoenliche-beratung/",
+      "title": "Energieberatung per WhatsApp, Telefon & Video"
+    },
+    {
+      "path": "/ueber-mich/",
+      "title": "Über Nico Silva | Energieberatung"
+    },
+    {
+      "path": "/impressum/",
+      "title": "Impressum | Anbieterkennzeichnung Energie"
+    },
+    {
+      "path": "/datenschutz/",
+      "title": "Datenschutzhinweise | Energieberatung"
+    }
+  ]
+}
