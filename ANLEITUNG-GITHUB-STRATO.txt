@@ -1,0 +1,62 @@
+SCHRITT-FÜR-SCHRITT: WEBSITE AUF energiemakler-silva.de BRINGEN
+
+Du brauchst dafür kein STRATO-Webhosting. GitHub Pages stellt diese einfache Website kostenlos bereit. Damit es im kostenlosen GitHub-Tarif funktioniert, muss das Website-Repository öffentlich sein. Das heißt: Die Website-Dateien sind sichtbar. Die Website selbst ist sowieso öffentlich. Für deine STRATO-Domain bezahlst du weiterhin nur die normale Domain-Verlängerung.
+
+WICHTIG: Bitte gib niemandem dein GitHub- oder STRATO-Passwort. Ändere keine E-Mail-Einträge (MX oder TXT). Die Website kann erst nach den Schritten unten unter der eigenen Domain erscheinen.
+
+TEIL 1 — Website-Dateien auf deinem Computer vorbereiten
+
+1. Lade die ZIP-Datei von Manus herunter.
+2. Öffne den Ordner „Downloads“ auf deinem Computer.
+3. Klicke mit der rechten Maustaste auf „energienlg-pages-export.zip“ und wähle „Alle extrahieren“ oder „Extrahieren“.
+4. Merke dir den Ordner, in den die Dateien entpackt wurden. In diesem Ordner müssen direkt „index.html“, „CNAME“ und mehrere Website-Ordner liegen. Lade später den INHALT dieses Ordners hoch, nicht die ZIP-Datei selbst.
+
+TEIL 2 — Leeres Website-Projekt auf GitHub anlegen
+
+5. Öffne github.com und melde dich mit deinem eigenen Konto an.
+6. Oben rechts auf das Pluszeichen (+) klicken und „New repository“ auswählen.
+7. Als Repository name genau diesen Namen eingeben: moreiradasilva26.github.io
+8. „Public“ auswählen. Das ist für GitHub Pages im kostenlosen Tarif nötig.
+9. „Add a README file“, „.gitignore“ und „License“ ausgeschaltet lassen, falls diese Auswahl erscheint. Dann „Create repository“ klicken.
+
+TEIL 3 — Kostenlose GitHub-Desktop-App verwenden
+
+10. Lade „GitHub Desktop“ nur von desktop.github.com herunter und installiere die kostenlose App.
+11. GitHub Desktop öffnen und mit deinem GitHub-Konto anmelden. Das Passwort gibst du nur direkt in GitHub/GitHub Desktop ein, niemals hier im Chat.
+12. In GitHub Desktop „File“ → „Clone repository“ wählen.
+13. Den Reiter „GitHub.com“ auswählen und „moreiradasilva26.github.io“ anklicken. Einen Speicherort auf deinem Computer wählen und „Clone“ klicken.
+14. Den entpackten Website-Ordner öffnen. Alle Dateien und Unterordner darin markieren und in den neuen Ordner „moreiradasilva26.github.io“ kopieren. Falls Windows fragt, ob Dateien zusammengeführt werden sollen, „Zusammenführen“ auswählen. Die Datei „index.html“ muss direkt im Hauptordner liegen. Auch „CNAME“ und „.nojekyll“ mitkopieren.
+15. Zur GitHub-Desktop-App zurückwechseln. Unten links bei „Summary“ zum Beispiel „Website hochladen“ eintippen. Dann „Commit to main“ klicken.
+16. Oben auf „Push origin“ klicken. Damit werden die Website-Dateien zu deinem GitHub-Konto übertragen.
+
+TEIL 4 — GitHub Pages einschalten
+
+17. Auf github.com das Repository „moreiradasilva26.github.io“ öffnen.
+18. „Settings“ anklicken, danach links „Pages“ auswählen.
+19. Bei „Build and deployment“ als Quelle „Deploy from a branch“ auswählen.
+20. Als Branch „main“ und als Ordner „/(root)“ auswählen. Dann „Save“ klicken.
+21. Warte ein paar Minuten. GitHub zeigt danach eine Adresse an, die ungefähr so aussieht: https://moreiradasilva26.github.io. Öffne sie einmal und prüfe, ob die Website erscheint.
+22. Auf derselben „Pages“-Seite in „Custom domain“ genau energiemakler-silva.de eintragen und „Save“ klicken. Im Website-Paket liegt dafür bereits die passende Datei „CNAME“.
+
+TEIL 5 — Domain bei STRATO mit der Website verbinden
+
+23. Öffne den STRATO-Kunden-Login. Gehe zu „Domains“ → „Domainverwaltung“.
+24. Neben energiemakler-silva.de auf das Zahnrad klicken und „DNS“ öffnen. Mach zuerst einen Screenshot deiner aktuellen DNS-Einträge, damit du weißt, wie sie vorher aussahen.
+25. Für die Hauptdomain energiemakler-silva.de vier DNS-Einträge vom Typ „A“ anlegen. Als Präfix/Name „@“ verwenden, falls STRATO danach fragt. Die vier Werte sind:
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+26. Für www.energiemakler-silva.de einen Eintrag vom Typ „CNAME“ erstellen. Präfix/Name: „www“. Ziel/Wert: moreiradasilva26.github.io
+27. Wenn für die Website bereits A- oder CNAME-Einträge mit denselben Namen „@“ oder „www“ vorhanden sind, müssen möglicherweise nur diese Website-Einträge ersetzt werden. Ändere NICHTS an MX- oder TXT-Einträgen. Diese können deine E-Mail betreffen. Wenn STRATO unklare vorhandene Einträge zeigt, bitte erst anhalten und nachfragen.
+28. Speichern. DNS-Änderungen können einige Stunden, manchmal bis zu 24 Stunden brauchen.
+29. Danach in GitHub wieder zu „Settings“ → „Pages“ gehen und „Enforce HTTPS“ einschalten, sobald die Auswahl verfügbar ist. Das kann ebenfalls etwas dauern.
+30. Zum Schluss https://energiemakler-silva.de im Browser öffnen. Die Website sollte dann über deine Domain erscheinen.
+
+WENN ETWAS ANDERS AUSSIEHT
+
+Nicht raten und keine E-Mail-DNS-Einträge löschen. Mach einen Screenshot des Schritts, an dem du festhängst, und schick ihn. Passwörter und Bestätigungscodes nicht mitschicken.
+
+HINWEIS ZUM KONTAKTFORMULAR
+
+Dieses Paket enthält die Website und ihre Bilder. Das bedeutet nicht automatisch, dass ein Anfrageformular E-Mails versendet. Der E-Mail-Versand muss separat eingerichtet und getestet werden.
